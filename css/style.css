@@ -1,1 +1,41 @@
 @import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto slab', serif;
+}
+
+.fondo, img {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+.fondo {
+    background: var(--color-secundary);
+}
+.fondo img {
+    opacity: 0.1;
+}
+nav {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegadores a , .contact a {
+    margin: 0 25px;
+    color: var(--color-font);
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: larger;
+}
+.navegadores a:first-child {
+    color: var(--color-primary);
+}
