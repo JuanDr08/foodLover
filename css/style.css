@@ -126,3 +126,38 @@ main {
 }
 
 /* mid */
+.mid {
+    position: relative;
+}
+.mid-fondo img {
+    width: 100%;
+}
+.img-1 {
+    position: absolute;
+    right: 0;
+    top: 3%;
+}
+.img-2 {
+    width: 60vw;
+    position: absolute;
+    right: 0;
+    top: 38%;
+}
+
+.img-3 {
+    width: 35vw;
+    position: absolute;
+    top: 60%;
+}
+
+.mid-text {
+    font-size: 2vw;
+    width: 30%;
+    position: absolute;
+    color: var(--color-font);
+    top: 20%;
+    right: 60%;
+}
+.mid-text h1 {
+    margin-bottom: 20px;
+}
