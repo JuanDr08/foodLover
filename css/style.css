@@ -255,6 +255,7 @@ main {
 .img-men-1 h3, h4,
 .img-men-2 h3, h4,
 .img-men-3 h3, h4 {
+    margin: 15px 0;
     font-size: 2em;
     color: var(--color-primary);
 }
@@ -285,4 +286,37 @@ footer {
 .orange img  {
     position: absolute;
     left: 0;
+}
+
+.social-media {
+    background: var(--color-ternario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.social-media img {
+    width: 15%;
+    margin-bottom: 2%;
+}
+
+.social-media nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.social-media nav a {
+    text-decoration: none;
+    color: var(--color-font);
+}
+
+.social [name='facebook-circle'], [name='twitter'], [name='instagram'], [name='pinterest']{
+    background: var(--color-font);
+    border-radius: 50%;
+    width: 25px;
+    height: auto;
+    margin: 0 5px;
 }
