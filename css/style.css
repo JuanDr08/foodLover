@@ -44,7 +44,7 @@ nav {
     display: flex;
     align-items: center;
     height: max-content;
-    max-height: 85%;
+    height: 85%;
 }
 .present div:first-child {
     width: 50%;
@@ -86,57 +86,43 @@ nav {
     cursor: pointer;
     margin-top: 20px;
 }
-.large {
-    height: 400vh;
-    position: relative;
-}
-.large > div {
-    position: absolute;
-    z-index: -1;
+
+/* Main top */
+main {
     background: var(--color-secundary);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
 }
 
-.large > div img{
-    width: 100%;
-    height: 50%;
-}
-.large article {
-    height: 100%;
-}
 .top {
-    width: 100%;
-    height: 25%;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    height: 100vh;
 }
-.top .img1 {
+
+.imagen-top {
+    width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imagen-top img {
+    height: 80%;
+    object-fit: cover;
+}
+.text-top {
     width: 50%;
-    height: 100%;
-}
-.img1 img {
-    width: 65%;
-}
-.text1 {
-    height: 50%;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: var(--color-font);
 }
-.text1 h1{
-    font-weight: bolder;
-    font-size: 3rem;
+
+.text-top h1 {
+    font-size: 4em;
 }
-.text1 p {
-    margin-top: 15px;
-    font-size: x-large;
+.text-top p {
+    font-size: 3em;
     font-weight: bolder;
+    margin-right: 5%;
 }
 
-
+/* mid */
