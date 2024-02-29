@@ -265,3 +265,24 @@ main {
     width: 75%;
 }
 
+/* Footer */
+footer {
+    position: relative;
+}
+.orange {
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-font);
+}
+.fnl-txt {
+    width: 25%;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 15vh 0;
+}
+.orange img  {
+    position: absolute;
+    left: 0;
+}
