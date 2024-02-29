@@ -183,3 +183,42 @@ main {
     margin: 1.5%;
     width: 25%;
 }
+
+/* Enjoy */
+.enjoy {
+    margin-top: 10%;
+    position: relative;
+}
+
+.fondo-enj {
+    width: 100%;
+    height: 100vh;
+}
+.fondo-enj img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.enj-txt {
+    position: absolute;
+    color: var(--color-font);
+    border: 10px solid var(--color-primary);
+    width: 50%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    font-size: 3em;
+    padding: 5%;
+    text-align: center;
+    font-weight: bolder;
+}
+.enj-txt h1 {
+    margin-bottom: 35px;
+}
