@@ -222,3 +222,47 @@ main {
 .enj-txt h1 {
     margin-bottom: 35px;
 }
+
+/* Menu */
+
+.menu {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: var(--color-font);
+}
+.menu h1 {
+    margin-bottom: 5%;
+    font-size: 3em;
+}
+.menu:last-child {
+    align-items: center;
+}
+.cont-men {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin: 0 5%;
+}
+
+.img-men-1 img,
+.img-men-2 img,
+.img-men-3 img {
+    width: 25vw;
+}
+
+.img-men-1 h3, h4,
+.img-men-2 h3, h4,
+.img-men-3 h3, h4 {
+    font-size: 2em;
+    color: var(--color-primary);
+}
+.img-men-1 p,
+.img-men-2 p,
+.img-men-3 p {
+    font-size: x-large;
+    width: 75%;
+}
+
