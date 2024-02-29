@@ -161,3 +161,25 @@ main {
 .mid-text h1 {
     margin-bottom: 20px;
 }
+/* gallery */
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery h1 {
+    color: var(--color-font);
+    font-size: 3em;
+    margin: 8% 0 4% 0;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images img {
+    margin: 1.5%;
+    width: 25%;
+}
