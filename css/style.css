@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Roboto slab', serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -37,7 +41,7 @@ header nav {
     cursor: pointer;
     font-size: larger;
 }
-.navegadores a:first-child {
+.navegadores a:hover, .contact a:hover {
     color: var(--color-primary);
 }
 .present {
